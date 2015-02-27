@@ -1,8 +1,11 @@
 [package]
-
 name = "pid"
 version = "0.0.1"
 authors = ["trevor"]
 
+[dependencies]
+time = "*"
+
 [dependencies.stats]
 git = "https://github.com/japaric/stats.rs"
+
